@@ -30,5 +30,5 @@ newdoc += """
 
 # write out
 print('Writing out')
-with open("allcats.html", "w") as text_file:
+with open("build/index.html", "w") as text_file:
     text_file.write(newdoc)
