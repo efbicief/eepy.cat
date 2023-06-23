@@ -22,7 +22,11 @@ for fname in html_fnames:
     openfile = open(fname)
     content = openfile.readlines()[6]
     newdoc += f'<div style="text-align: center; align: center;">\n{content}</div>\n'
-newdoc += "\n</body>"
+newdoc += """
+<div style="text-align: center; align: center;">
+        <a style="color: white;">submit cat pics / enviar fotos de gats: eepycats at fbcf · xyz</a>
+</div>
+</body>"""
 
 # write out
 print('Writing out')
